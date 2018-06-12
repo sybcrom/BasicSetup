@@ -1,0 +1,25 @@
+.boxrs{
+	margin:0 auto;
+	position: static;
+	max-width:260px;
+	.rond{
+		border-radius: 50%;
+		background-color: $rose-dark;
+		width:70px;
+		height:70px;
+		position:relative;
+		display: inline-block;
+		margin:50px 5px;
+		transition: 0.3s ease;
+		.fa{color:$blanc;position: absolute;@include centrage(50%, 50%);transition: 0.3s ease;}
+	}
+	.rond:hover{
+		background-color: $blanc;
+		.fa{color:$rose-dark;}
+	}
+}
+
+
+@media screen and (max-width: 992px){
+	.boxwhite .boxrs{width:90%;}
+}

@@ -1,0 +1,17 @@
+.navbar{margin-bottom:0;}
+.hero{
+	background-image: url("../img/nom.jpg");
+	background-size: cover;
+	height:100vh;
+    max-height:800px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    position: relative;
+    .logo{
+    	position: absolute;
+    	top:50%;
+    	left:20%;
+        color:$rose-light;
+    }
+}
