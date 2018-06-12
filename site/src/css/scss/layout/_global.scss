@@ -1,0 +1,54 @@
+html, body{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+// Links
+a {
+	text-decoration: none;
+}
+a:hover{text-decoration: none}
+a:focus{text-decoration: none}
+
+img {
+	max-width:100%;
+}
+
+button{border:none; outline:none; background-color: transparent; }
+
+p{
+	font-family: $font-normal; 
+}
+
+h1{
+	padding-bottom: 50px;
+	font-size: 5em;
+}
+
+h1, h2, h3{
+	font-family: $font-script;
+    color: $rose-dark;
+}
+
+#section1{
+	padding:80px 0;
+}
+
+.row{margin-bottom: 50px;}
+
+a{transition: width 2s ease-in .5s;}
+a:hover{
+	text-decoration: none;
+	color:$rose-dark;
+}
